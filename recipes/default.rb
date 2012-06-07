@@ -1,3 +1,6 @@
+include_recipe "libgcrypt"
+include_recipe "libxml2"
+
 packages = %w/
   libxslt1.1
 /
